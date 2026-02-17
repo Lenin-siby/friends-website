@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAHRUDAYANS 2023-25</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="premium-bg"></div>
+<div class="floating-lights"></div>
+
+
+
+<h1>SAHRUDAYANS 2023-25</h1>
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search friend by name..." onkeyup="searchFriends()">
+</div>
+<p id="noResults" style="display: none; text-align: center; margin-top: 15px; color: #f87171;">
+    No friends found 😢
+</p>
+<p id="friendCount" style="text-align:center; margin-top:10px; color:#38bdf8;">
+    Showing 0 friends
+</p>
+
+
+<div class="container">
+
+    <!-- JAGATH -->
+    <div class="card" onclick="openModal(0)"
+        data-img="images/friend1.jpg"
+        data-name="JAGATH M DHARAN(JND)"
+        data-address="Vithura, Trivandrum"
+        data-qualification="MA Malayalam"
+        data-qualification=""
+        data-current="Graphic Designer">
+        <img src="images/friend1.jpg">
+        <h2>JAGATH M DHARAN (JND)</h2>
+        <p><strong>Address:</strong> Vithura, Trivandrum</p>
+        <p><strong>Highest Qualification:</strong> MA Malayalam</p>
+        <p><strong>Currently:</strong> Graphic Designer</p>
+        <a href="https://www.instagram.com/_jm.d?igsh=dHF6Z2xlYThudzI=" target="_blank">
+            <i class="fab fa-instagram"></i> jmd
+        </a>
+    </div>
+
+    <!-- LENIN -->
+    <div class="card" onclick="openModal(1)"
+        data-img="images/lenin.jpg"
+        data-name="LENIN D SIBY (MAGA)"
+        data-address="Kuravilanagd,Kottayam"
+        data-qualification="MSc Computer Science"
+        data-current="Preparing for Govt Exams">
+        <img src="images/lenin.jpg">
+        <h2>LENIN D SIBY (MAGA )</h2>
+        <p><strong>Address:</strong> Kuravilanagd,Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MSc Computer Science</p>
+        <p><strong>Currently:</strong> Preparing for Govt Exams</p>
+        <a href="https://www.instagram.com/_leninsiby?igsh=OXRiNTNhanJjNGZs" target="_blank" class="insta-link">
+            <i class="fab fa-instagram"></i> <span> lenin</span>
+        </a>
+    </div>
+
+    <!-- JOYAL -->
+    <div class="card" onclick="openModal(2)"
+        data-img="images/joyal.jpeg"
+        data-name="JOYAL TOMY(JOYAL ETTAYI)"
+        data-address="Pothuppara, Idukki"
+        data-qualification="MSc Zoology"
+        data-current="Preparing for UPSC Exams">
+        <img src="images/joyal.jpeg">
+        <h2>JOYAL TOMY     (JOYAL ETTAYI)</h2>
+        <p><strong>Address:</strong> Pothuppara, Idukki</p>
+        <p><strong>Highest Qualification:</strong> MSc Zoology</p>
+        <p><strong>Currently:</strong> Preparing for UPSC Exams</p>
+        <a href="https://www.instagram.com/joyal_3335?igsh=Mmpqc2VhZmN3dGFn" target="_blank">
+            <i class="fab fa-instagram"></i> joyal
+        </a>
+    </div>
+<div class="card" onclick="openModal(3)"
+        data-img="images/thambi.jpeg"
+        data-name="SHITHIN THAMBI (THAMBI)"
+        data-address="Ranni,Pathanamthitta"
+        data-qualification="MBA"
+        data-current="Management Trainee at Muthoot Finance">
+        <img src="images/thambi.jpeg">
+        <h2>SHITHIN THAMBI (THAMBI)</h2>
+        <p><strong>Address:</strong> Ranni,Pathanamthitta</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Management Trainee at Muthoot Finance</p>
+        <a href="https://www.instagram.com/shithinthambi?igsh=MWd6aTNwdnV6dHFlMg==" target="_blank">
+            <i class="fab fa-instagram"></i> shithin
+        </a>
+    </div>
+    <div class="card" onclick="openModal(4)"
+        data-img="images/ashish.jpeg"
+        data-name="ASHISH PHILIP(KOMALI)"
+        data-address="Champakulam, Alappuzha"
+        data-qualification="MBA"
+        data-current="Management Trainee at Jaro Education">
+        <img src="images/ashish.jpeg">
+        <h2>ASHISH PHILIP  (KOMALI)</h2>
+        <p><strong>Address:</strong> Champakulam, Alappuzha</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Management Trainee at Jaro Education</p>
+        <a href="https://www.instagram.com/_ashishphilip?igsh=MTE0NnZnMXlwZW45Zg==" target="_blank">
+            <i class="fab fa-instagram"></i> ashish
+        </a>
+    </div>
+    <div class="card" onclick="openModal(5)"
+        data-img="images/pettan.jpeg"
+        data-name="ANTON K THOMAS (PETTAN)"
+        data-address="BisonValley, Idukki"
+        data-qualification="BVoc Physics"
+        data-current="RM at ICICI Bank">
+        <img src="images/pettan.jpeg">
+        <h2>ANTON K THOMAS (PETTAN)</h2>
+        <p><strong>Address:</strong> BisonValley, Idukki</p>
+        <p><strong>Highest Qualification:</strong> BVoc Physics</p>
+        <p><strong>Currently:</strong> RM at ICICI Bank</p>
+        <a href="https://www.instagram.com/anton_k_thomas?igsh=MWJ0c250YjV4dG9vZg==" target="_blank">
+            <i class="fab fa-instagram"></i> Anton
+        </a>
+    </div>
+    <div class="card" onclick="openModal(6)"
+        data-img="images/machu.jpeg"
+        data-name="ABHINAND PV(MACHU)"
+        data-address="Mundakkayam, Kottayam"
+        data-qualification="MBA"
+        data-current="Audit Associate at KPMG">
+        <img src="images/machu.jpeg">
+        <h2>ABHINAND PV (MACHU)</h2>
+        
+
+        <p><strong>Address:</strong> Mundakkayam, Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Audit Associate at KPMG</p>
+        <a href="https://www.instagram.com/abhinandpv?igsh=MWJ0c250YjV4dG9vZg==" target="_blank">
+            <i class="fab fa-instagram"></i> Abhinand
+        </a>
+    </div>
+    <div class="card" onclick="openModal(7)"
+        data-img="images/kevin.jpeg"
+        data-name="KEVIN BOBBY (BOOBY)"
+        data-address="Pala,Kottayam"
+        data-qualification="MBA"
+        data-current="Sales Executive at InidaMart">
+        <img src="images/kevin.jpeg">
+        <h2>KEVIN BOBBY (BOOBY)</h2>
+        <p><strong>Address:</strong> Pala,Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Sales Executive at InidaMart</p>
+        <a href="https://www.instagram.com/kevn.bob?igsh=MWx6OW16eW1qOTZwMw==" target="_blank">
+            <i class="fab fa-instagram"></i> kevin
+        </a>
+    </div>
+    <div class="card" onclick="openModal(8)"
+        data-img="images/rusi.jpeg"
+        data-name="CRISBIN VS (RUSI)"
+        data-address="Vellarikund, Kasaragod"
+        data-qualification="MSc Chemistry"
+        data-current="Chemist at Raichur">
+        <img src="images/rusi.jpeg">
+        <h2>CRISBIN VS (RUSI)</h2>
+        <p><strong>Address:</strong> Vellarikund, Kasaragod</p>
+        <p><strong>Highest Qualification:</strong> MSc Chemistry</p>
+        <p><strong>Currently:</strong> Chemist at Raichur</p>
+        <a href="https://www.instagram.com/cris_bin__vs?igsh=MXE3ZDA0aWN6aml1Mg==" target="_blank">
+            <i class="fab fa-instagram"></i> rusi
+        </a>
+    </div>
+    <div class="card" onclick="openModal(9)"
+        data-img="images/sayanth.jpeg"
+        data-name="SAYANTH SANTHOSH(SAVADANAM)"
+        data-address="Chertala, Alappuzha"
+        data-qualification="MBA"
+        data-current="Teaching Assistant at Amrita University">
+        <img src="images/sayanth.jpeg">
+        <h2>SAYANTH SANTHOSH(SAVADANAM)</h2>
+        <p><strong>Address:</strong> Chertala, Alappuzha</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Teaching Assistant at Amrita University</p>
+        <a href="https://www.instagram.com/__saayanth?igsh=MTR2N2hkbzd1dzV2aw==" target="_blank">
+            <i class="fab fa-instagram"></i> sayanth
+        </a>
+    </div>
+    <div class="card" onclick="openModal(10)"
+        data-img="images/blur.jpeg"
+        data-name="JOSEPH ANTONY (BLUR)"
+        data-address="Vaduthala,Ernakulam"
+        data-qualification="MSc Chemistry"
+        data-current="Data Analyst at ZIFO Technologies">
+        <img src="images/blur.jpeg">
+        <h2>JOSEPH ANTONY (BLUR)</h2>
+        <p><strong>Address:</strong> Vaduthala,Ernakulam</p>
+        <p><strong>Highest Qualification:</strong> MSc Chemistry</p>
+        <p><strong>Currently:</strong> Data Analyst at ZIFO Technologies</p>
+        <a href="https://www.instagram.com/josf.antony21?igsh=eTk5bXE0MXczZ21r" target="_blank">
+            <i class="fab fa-instagram"></i>Joseph
+        </a>
+    </div>
+    <div class="card" onclick="openModal(11)"
+        data-img="images/shaji.jpeg"
+        data-name="ALAN K SHAJI(SHAJI)"
+        data-address="Mannanam,Kottayam"
+        data-qualification="MSW"
+        data-current="Social Worker">
+        <img src="images/shaji.jpeg">
+        <h2>ALAN K SHAJI(SHAJI)</h2>
+        <p><strong>Address:</strong> Pothuppara, Idukki</p>
+        <p><strong>Highest Qualification:</strong> MSW</p>
+        <p><strong>Currently:</strong> Social Worker</p>
+        <a href="https://www.instagram.com/alan_k_shaji?igsh=MWJ0c250Y214ZjV3Mw==" target="_blank">
+            <i class="fab fa-instagram"></i> shaji
+        </a>
+    </div>
+    <div class="card" onclick="openModal(12)"
+        data-img="images/vayya.jpeg"
+        data-name="ADARSH TR (VAYYATHAVAN)"
+        data-address="Nedumkanda, Idukki"
+        data-qualification="MSW"
+        data-current="Preparing for PSC Exams">
+        <img src="images/vayya.jpeg">
+        <h2>ADARSH TR (VAYYATHAVAN)</h2>
+        <p><strong>Address:</strong> Nedumkanda, Idukki</p>
+        <p><strong>Highest Qualification:</strong> MSW</p>
+        <p><strong>Currently:</strong> Preparing for PSC Exams</p>
+        <a href="https://www.instagram.com/adarsh__tr?igsh=Y2c5aXB6M2ppcTZu" target="_blank">
+            <i class="fab fa-instagram"></i> Adarsh
+        </a>
+    </div>
+    <div class="card" onclick="openModal(13)"
+        data-img="images/jaba.jpeg"
+        data-name="ABIN CYRIAC THOMAS (JABA)"
+        data-address="Pala,Kottayam"
+        data-qualification="MBA"
+        data-current="Audit Associate at KPMG   ">
+        <img src="images/jaba.jpeg">
+        <h2>ABIN CYRIAC THOMAS (JABA)</h2>
+        <p><strong>Address:</strong> Pala,Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MBA</p>
+        <p><strong>Currently:</strong> Audit Associate at KPMG</p>
+        <a href="https://www.instagram.com/the___disguiser?igsh=MWM5aDlnNzQxOGpkZw==" target="_blank">
+            <i class="fab fa-instagram"></i>Abin
+        </a>
+    </div>
+    <div class="card" onclick="openModal(14)"
+        data-img="images/tijin.jpeg"
+        data-name="TIJIN MATHEW(TIJIN ACHAN)"
+        data-address="Amboori, Thiruvananthapuram"
+        data-qualification="MSc Zoology"
+        data-current="Preparing for NET Exams">
+        <img src="images/tijin.jpeg">
+        <h2>TIJIN MATHEW(TIJIN ACHAN)</h2>
+        <p><strong>Address:</strong> Amboori, Thiruvananthapuram</p>
+        <p><strong>Highest Qualification:</strong> MSc Zoology</p>
+        <p><strong>Currently:</strong> Preparing for NET Exams</p>
+        <a href="https://www.instagram.com/_t_jinn?igsh=MW1oa2VwemNhd3Blcw==" target="_blank">
+            <i class="fab fa-instagram"></i> Tijin
+        </a>
+    </div>
+    <div class="card" onclick="openModal(15)"
+        data-img="images/kp.jpeg"
+        data-name="KRISHNA PRASAD KS (KP)"
+        data-address="Cherai, Ernakulam"
+        data-qualification="MSc Physics"
+        data-current="Pursuing BEd">
+        <img src="images/kp.jpeg">
+        <h2>KRISHNA PRASAD KS (KP)</h2>
+        <p><strong>Address:</strong> Cherai, Ernakulam</p>
+        <p><strong>Highest Qualification:</strong> MSc Physics</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        <a href="https://www.instagram.com/krishna_prasad_ks?igsh=MWJ0c250Y214ZjV3Mw==" target="_blank">
+            <i class="fab fa-instagram"></i> KP
+        </a>
+    </div>
+    <div class="card" onclick="openModal(16)"
+        data-img="images/jerin.jpeg"
+        data-name="JERIN BEJOY (JERIN ETTAYI)"
+        data-address="kOOTHATTUKULAM, ERNAKULAM"
+        data-qualification="MA MAlayalam"
+        data-current="Pursuing BEd">
+        <img src="images/jerin.jpeg">
+        <h2>JERIN BEJOY (JERIN ETTAYI)</h2>
+        <p><strong>Address:</strong> kOOTHATTUKULAM, ERNAKULAM</p>
+        <p><strong>Highest Qualification:</strong> MA MAlayalam</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        <a href="https://www.instagram.com/jerin_jb.7?igsh=Y2o2MmI4aDlsaTdw" target="_blank">
+            <i class="fab fa-instagram"></i> Jerin
+        </a>
+    </div>
+    <div class="card" onclick="openModal(17)"
+        data-img="images/don.jpeg"
+        data-name="DON JAMES (DON)"
+        data-address="Mundakkayam, Kottayam"
+        data-qualification="MSc Zoology"
+        data-current="Pursuing BEd">
+        <img src="images/don.jpeg">
+        <h2>DON JAMES (DON)</h2>
+        <p><strong>Address:</strong> Mundakkayam, Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MSc Zoology</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        <a href="https://www.instagram.com/_don_james_?igsh=MWxteHRsZHFwaGNwNA==" target="_blank">
+            <i class="fab fa-instagram"></i> Don
+        </a>
+    </div>
+    <div class="card" onclick="openModal(18)"
+        data-img="images/thala.jpeg"
+        data-name="AJITH BIJU (THALA)"
+        data-address="Mundakkayam, Kottayam"
+        data-qualification="MSc Chemistry"
+        data-current="Preparing for Bank Exams">
+        <img src="images/thala.jpeg">
+        <h2>AJITH BIJU (THALA)</h2>
+        <p><strong>Address:</strong> Mundakkayam, Kottayam</p>
+        <p><strong>Highest Qualification:</strong> MSc Chemistry</p>
+        <p><strong>Currently:</strong> Preparing for Bank Exams</p>
+       
+        
+    </div>
+    <div class="card" onclick="openModal(19)"
+        data-img="images/nanda.jpeg"
+        data-name="NANDAKISHORE H(FUNDAKISHORE)"
+        data-address="Haripad, Alappuzha"
+        data-qualification="MSc Physics"
+        data-current="Pursuing BEd">
+        <img src="images/nanda.jpeg">
+        <h2>NANDAKISHORE H(FUNDAKISHORE)</h2>
+        <p><strong>Address:</strong> Haripad, Alappuzha</p>
+        <p><strong>Highest Qualification:</strong> MSc Physics</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        <a href="https://www.instagram.com/nandakishore_h?igsh=MTQyNGo0d2x4OTBveg==" target="_blank">
+            <i class="fab fa-instagram"></i>Nandakishore
+        </a>
+    </div>
+    <div class="card" onclick="openModal(20)"
+        data-img="images/maaman.jpeg"
+        data-name="GANESH SANKARV S(MAAMAN)"
+        data-address="Haripad, Alappuzha"
+        data-qualification="MSc Physics"
+        data-current="Pursuing BEd">
+        <img src="images/maaman.jpeg">
+        <h2>GANESH SANKARV S(MAAMAN)</h2>
+        <p><strong>Address:</strong> Haripad, Alappuzha</p>
+        <p><strong>Highest Qualification:</strong> MSc Physics</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        
+    </div>
+    <div class="card" onclick="openModal(21)"
+        data-img="images/pakshi.jpeg"
+        data-name="ADARSH AJAY (PAKSHI)"
+        data-address="Adoor, Pathanamthitta"
+        data-qualification="MSc Maths"
+        data-current="Data Analyst at ZIFO Technologies">
+        <img src="images/pakshi.jpeg">
+        <h2>ADARSH AJAY (PAKSHI)</h2>
+        <p><strong>Address:</strong> Adoor, Pathanamthitta</p>
+        <p><strong>Highest Qualification:</strong> MSc Maths</p>
+        <p><strong>Currently:</strong> Data Analyst at ZIFO Technologies</p>
+        <a href="https://www.instagram.com/adarsh.ajay?igsh=MWxjbGpkZHFkbTJvcw==" target="_blank">
+            <i class="fab fa-instagram"></i>Adarsh
+        </a>
+    </div>
+    <div class="card" onclick="openModal(22)"
+        data-img="images/maavo.jpeg"
+        data-name="JOSEPH PETER VJ (MAAVO)"
+        data-address="Trikkakara, Ernakulam"
+        data-qualification="MSc Zoology"
+        data-current="Preparing for NET Exams">
+        <img src="images/maavo.jpeg">
+        <h2>JOSEPH PETER VJ (MAAVO)</h2>
+        <p><strong>Address:</strong> Trikkakara, Ernakulam</p>
+        <p><strong>Highest Qualification:</strong> MSc Zoology</p>
+        <p><strong>Currently:</strong> Preparing for NET Exams</p>
+        <a href="https://www.instagram.com/joseph_peter_vj?igsh=MXg1eDBzOG9xeWw4eg==" target="_blank">
+            <i class="fab fa-instagram"></i> Joseph
+        </a>
+    </div>
+    <div class="card" onclick="openModal(23)"
+        data-img="images/sms.jpeg"
+        data-name="SREERAJ MS(SMS))"
+        data-address="Pathanamthitta"
+        data-qualification="MSc Zoology"
+        data-current="Pursuing BEd">
+        <img src="images/sms.jpeg">
+        <h2>SREERAJ MS(SMS))</h2>
+        <p><strong>Address:</strong> Pathanamthitta</p>
+        <p><strong>Highest Qualification:</strong> MSc Zoology</p>
+        <p><strong>Currently:</strong> Pursuing BEd</p>
+        <a href="https://www.instagram.com/sreeraj.ms.37?igsh=enBvd2FmN2RsdGlj" target="_blank">
+            <i class="fab fa-instagram"></i> Sreeraj
+        </a>
+    </div>
+    <div class="card" onclick="openModal(24)"
+        data-img="images/ooki.jpeg"
+        data-name="ALAN VARGHESE JOSEPH(OOKI)")"
+        data-address="Thiruvallam, Thiruvananthapuram"
+        data-qualification="MSc Physics"
+        data-current="Preparing for Govt Exams">
+        <img src="images/ooki.jpeg">
+        <h2>ALAN VARGHESE JOSEPH(OOKI)</h2>
+        <p><strong>Address:</strong> Thiruvallam, Thiruvananthapuram</p>
+        <p><strong>Highest Qualification:</strong> MSc Physics</p>
+        <p><strong>Currently:</strong> Preparing for Govt Exams</p>
+        <a href="https://www.instagram.com/_alxn_joseph_?igsh=ZWIwZm9peHM1d3Ix" target="_blank">
+            <i class="fab fa-instagram"></i> Alan
+        </a>
+    </div>
+    <!-- ADD MORE FRIENDS BELOW USING SAME STRUCTURE -->
+
+</div>
+
+<!-- MODAL -->
+<div id="profileModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage">
+      <h2 id="modalName"></h2>
+      <p id="modalAddress"></p>
+      <p id="modalQualification"></p>
+      <p id="modalCurrent"></p>
+
+      <div class="nav-buttons">
+          <button onclick="prevProfile()">⬅ Prev</button>
+          <button onclick="nextProfile()">Next ➡</button>
+      </div>
+  </div>
+</div>
+
+
+<script>
+let currentIndex = 0;
+let cards = document.querySelectorAll('.card');
+
+function openModal(index) {
+    currentIndex = index;
+    let card = cards[index];
+
+    document.getElementById("modalImage").src = card.dataset.img;
+    document.getElementById("modalName").innerText = card.dataset.name;
+    document.getElementById("modalAddress").innerText = "Address: " + card.dataset.address;
+    document.getElementById("modalQualification").innerText =
+        card.dataset.qualification ? "Qualification: " + card.dataset.qualification : "";
+    document.getElementById("modalCurrent").innerText =
+        "Currently: " + card.dataset.current;
+
+    document.getElementById("profileModal").style.display = "block";
+}
+
+function nextProfile() {
+    currentIndex = (currentIndex + 1) % cards.length;
+    openModal(currentIndex);
+}
+
+function prevProfile() {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    openModal(currentIndex);
+}
+
+document.querySelector(".close").onclick = function() {
+    document.getElementById("profileModal").style.display = "none";
+}
+window.onclick = function(event) {
+    let modal = document.getElementById("profileModal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+document.addEventListener("keydown", function(e) {
+    if (e.key === "ArrowRight") nextProfile();
+    if (e.key === "ArrowLeft") prevProfile();
+    if (e.key === "Escape")
+        document.getElementById("profileModal").style.display = "none";
+});
+function searchFriends() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+    let cards = document.querySelectorAll(".card");
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+        let text = card.innerText.toLowerCase();
+
+        if (text.includes(input)) {
+            card.style.display = "block";
+            visibleCount++;
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    // Update counter
+    let total = cards.length;
+    document.getElementById("friendCount").innerText =
+        "Showing " + visibleCount + " of " + total + " friends";
+
+    // Show / Hide No Results message
+    document.getElementById("noResults").style.display =
+        visibleCount === 0 ? "block" : "none";
+}
+// Show total count on load
+window.onload = function() {
+    let total = document.querySelectorAll(".card").length;
+    document.getElementById("friendCount").innerText =
+        "Showing " + total + " of " + total + " friends";
+};
+
+
+document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("mousemove", e => {
+        let rect = card.getBoundingClientRect();
+        let x = e.clientX - rect.left;
+        let y = e.clientY - rect.top;
+
+        let centerX = rect.width / 2;
+        let centerY = rect.height / 2;
+
+        let rotateX = (y - centerY) / 15;
+        let rotateY = (centerX - x) / 15;
+
+        card.style.transform =
+            `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+
+    card.addEventListener("mouseleave", () => {
+        card.style.transform = "rotateX(0) rotateY(0)";
+    });
+});
+
+
+
+</script>
+
+</body>
+</html>
